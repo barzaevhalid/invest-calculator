@@ -1,0 +1,27 @@
+<table>
+  <thead>
+  <tr>
+    <th>Year</th>
+    <th>Investment Value</th>
+    <th>Interest (Year)</th>
+    <th>Total interest</th>
+    <th>Invested Capital</th>
+  </tr>
+
+  </thead>
+
+  <tbody>
+  @if(table.length > 0){
+    @for (filed of table; track table.year) {
+      <tr>
+        <td>{{filed.year}}</td>
+        <td>$10,700.00</td>
+        <td>$600</td>
+        <td>$600</td>
+        <td>$10,700.00</td>
+      </tr>
+    }
+  }
+
+  </tbody>
+</table>
